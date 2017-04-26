@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<head>
+	<title></title>
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+<style type="text/css">
+	body{
+		margin: 0px;
+	}
+	#header{
+		width: 90%;
+		margin:auto;
+	}
+	#logo{
+		
+		width: 20%;
+		float: left;
+		
+	}
+	
+
+	#menu {
+		margin: auto;
+		width: 60%;
+		float: right;
+	}
+
+	#menu li{
+		text-decoration: none;
+		display: inline-flex;
+		padding: 30px;
+		font-family:'Oswald', sans-serif; 
+	}
+
+	#menu li a{
+		text-decoration: none;
+		font-size: 18pt;
+		margin: auto;
+		text-align: center;
+		color: #008000;
+	}
+
+	@media (max-width: 40em) {
+		#menu{
+			width: 100%;
+		}
+		#menu li {
+			display: block;	
+		}
+		#logo{
+			margin: auto;
+		}
+		
+  	}
+}
+</style>
+<body>
+<div id="header">
+<div id="logo" >
+	<img src="http://ifrs.edu.br/site/img/logo_novo.png">
+
+	
+</div>
+<nav id="menu">
+	<ul>
+		<li><a href="http://localhost:5000/status">STATUS</a></li>
+		<li><a href="#">MENU1</a></li>
+		<li><a href="#">MENU2</a></li>
+		<li><a href="#">MENU3</a></li>
+
+	</ul>
+</nav>
+</div>
+</body>
+</html>
