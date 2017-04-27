@@ -11,7 +11,7 @@ def index():
  
 @app.route("/status")
 def status():
-	return render_template ('status.py')
+	return render_template ('status.html')
 
 @app.route("/menu")
 def menu():

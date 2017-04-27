@@ -1,26 +1,25 @@
-print("<html>")
-print("<head>")
-print('<meta http-equiv="Content-Language" content="pt-br">'+"\n")
+print('<html>')
+print('<head>')
+print('<meta http-equiv="Content-Language" content="pt-br">'+'\n')
 print('<meta http-equiv="Content-Type" content="text/html; charset= utf-8">'+"\n")
-print("<title>Teste com Python</title>")
-print("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>")
-print("</head>")
-print("<body style='background:gray'>")
-print("<input name='' type='button' onClick='a='2' value='parar'>")
-print("<center>")
-print("<div style='width:900px; border-radius:2em; background-color:white; border: 3px solid green'>")
-print("<img width='400px' alt='IFRS-RESTINGA' src='https://ads.restinga.ifrs.edu.br/wp-content/uploads/2015/03/2013615111655517novo_logo_restinga_curto.png'/>")
-print("<div style='width:1000px; border-radius:2em; background-color:white; border: none'>")
-print("<ul class='dropdown-menu' aria-labelledby='dropdownMenu4'>")
-print("<li><a href='#'>Regular link</a></li>")
-print("<li class='disabled'><a href='#'>Disabled link</a></li>")
-print("<li><a href='#'>Another link</a></li>")
-print("</ul>")
-print("</div>")
-print ("<div class='jumbotron'>")
-print("<div class='panel panel-default'>")
-print("<div class='panel-heading'><h2>Dados Arduino - Sala 412</h2></div>")
-print ("<table class='table'>")
+print('<title>Teste com Python</title>')
+print('<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>')
+print('</head>')
+print('<body style="background:gray">')
+print('<center>')
+print('<div style="width:900px; border-radius:2em; background-color:white; border: 3px solid green";>')
+print('<img width='400px' alt='IFRS-RESTINGA' src='https://ads.restinga.ifrs.edu.br/wp-content/uploads/2015/03/2013615111655517novo_logo_restinga_curto.png'/>')
+print('<div style="width:1000px; border-radius:2em; background-color:white; border: none">')
+print('<ul class="dropdown-menu" aria-labelledby="dropdownMenu4">')
+print('<li><a href="#">Regular link</a></li>')
+print('<li class="disabled"><a href="#">Disabled link</a></li>')
+print('<li><a href="#">Another link</a></li>')
+print('</ul>')
+print('</div>')
+print ('<div class="jumbotron">')
+print('<div class="panel panel-default">')
+print('<div class="panel-heading"><h2>Dados Arduino - Sala 412</h2></div>')
+print ('<table class="table">')
      
 #import MySQLdb
 #from socket import *
@@ -79,7 +78,7 @@ while(a=="1"): #Main Loop
     try:
         rec_data, addr = client_socket.recvfrom(2048) #Read response from arduino
         print ("<td>")
-        print( rec_data) #Print the response from Arduino
+        print(   rec_data) #Print the response from Arduino
         print("</td>")
     except:
         pass

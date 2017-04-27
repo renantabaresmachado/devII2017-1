@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>
+	<title>Status do arduino</title>
+</head>
+<body style="background:gray">
+<center>
+<div style="width:900px; border-radius:2em; background-color:white; border: 3px solid green;">
+	<img width='400px' alt='IFRS-RESTINGA' src='https://ads.restinga.ifrs.edu.br/wp-content/uploads/2015/03/2013615111655517novo_logo_restinga_curto.png'/>
+<div style="width:890px; border-radius:2em; background-color:white; border: none">
+	<div class="jumbotron">
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Dados Arduino - Sala 412</h2>
+			</div>
+			<table class="table">
+				<tr>
+				<th>
+					Mensagem
+				</th>
+				<th>
+					Luminosidade
+				</th>
+				<th>
+					Temperatura
+				</th>
+				<th>
+					Luz
+				</th>
+				<th>
+					Ar-condicionado
+				</th>
+				<th>
+					Data-Hora
+				</th>
+				</tr>
+				<tr>
+				<td>
+				{%
+				print 'mensagem'
+			    %}
+			    </td>
+			    <td>
+			    {%
+			    print 'temperatura'	
+			    %}	
+			    </td>
+			    <td>
+			    {%
+			    print 'luminosidade'	
+			    %}	
+			    </td>
+			    <td>
+			    {%
+			    print 'luz'
+			    %}
+			    </td>
+			    <td>
+			    {%
+			    print 'ar-condicionado'	
+			    %}
+			    </td>
+			    <td>
+			    {%	
+			    print 'data'
+			    %} 
+
+			    </td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+</div>
+</center>
+</body>
+</html>
